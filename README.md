@@ -71,9 +71,19 @@ Replace the path in `test.py` with your own test image and model file.
 If you use this repository, please cite the following publication:
 
 ```
-N. P. Raja, S. Sarvesan, A. Thomas and V. P. Gopi,
-"Spatially Enhanced U-Net with Non-Local Attention Gates for Automated Retinal Vasculature and FAZ Segmentation in OCTA Images,"
-IEEE Journal (To Appear), 2025.
+@article{RAJA2026113956,
+title = {Spatially enhanced U-Net with non-local attention gates for automated retinal vasculature and foveal avascular zone segmentation in optical coherence tomography angiography images},
+journal = {Engineering Applications of Artificial Intelligence},
+volume = {167},
+pages = {113956},
+year = {2026},
+issn = {0952-1976},
+doi = {https://doi.org/10.1016/j.engappai.2026.113956},
+url = {https://www.sciencedirect.com/science/article/pii/S095219762600237X},
+author = {Nisan Pranavah Raja and Srivatsan Sarvesan and Varun P. Gopi},
+keywords = {Deep learning, Segmentation, Capillary, Artery, Vein, Foveal Avascular Zone, Diabetic retinopathy, Optical Coherence Tomography Angiography, U-Net, Non-local attention gate, Spatial attention gate},
+abstract = {Diabetic Retinopathy (DR) is a chronic diabetes complication caused by prolonged high blood glucose levels, damaging the retina and potentially leading to irreversible vision loss. In clinical settings, Optical Coherence Tomography Angiography (OCTA) plays a key role in managing vision-related diseases by providing clear, cross-sectional images of retinal structures. We propose an ingenious automated deep learning-based segmentation technique by enhancing the conventional U-Net by integrating attention-gating mechanisms into the skip connections to combine refined features from the encoder and the previous level of the decoder. This creates a Non-Local Attention Gate in the first decoder and Spatial Attention Gates in the rest. Each encoder and decoder level uses three convolutional layers with batch normalization and Rectified Linear Unit activation. Deep learning methods to segment retinal structures, including capillaries, arteries, veins, and the Foveal Avascular Zone (FAZ), are vital in research and medical use. Extensive experiments and analysis are conducted on the open-access OCTA-500 dataset, encompassing 500 subjects. In the segmentation task, we evaluated our proposed method using seven quantitative metrics: Dice coefficient, Intersection over Union, accuracy, sensitivity, specificity, 95th Percentile Hausdorff Distance, and Average Symmetric Surface Distance. Our proposed method achieved Dice scores of 87.59% and 89.90% for capillary segmentation, 87.19% and 88.73% for artery segmentation, and 86.66% and 88.84% for vein segmentation. In the FAZ region, the method attained 92.57% and 98.45% for the OCTA 6 mm and 3 mm subsets, respectively. Our design framework is simple, resource-efficient, and accurate, achieving precise segmentation of the microvasculature and Foveal Avascular Zone}
+}
 ```
 
 ---
