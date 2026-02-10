@@ -92,7 +92,7 @@ abstract = {Diabetic Retinopathy (DR) is a chronic diabetes complication caused 
 
 **Nisan Pranavah Raja**  
 Ph.D. Scholar – AI for Medical Imaging 
-This repository is maintained by Nisan Pranavah Raja, the first author and lead contributor of the original IEEE publication. While the research and model development were carried out collaboratively with co-authors, this GitHub implementation has been independently refined, documented, and curated by Nisan to enable broader accessibility, reproducibility, and real-world application.
+This repository is maintained by Nisan Pranavah Raja, the first author and lead contributor of the original publication. While the research and model development were carried out collaboratively with co-authors, this GitHub implementation has been independently refined, documented, and curated by Nisan to enable broader accessibility, reproducibility, and real-world application.
 🔗 [LinkedIn](https://www.linkedin.com/in/nisan-pranavah-raja)  
 🔗 [Google Scholar](https://scholar.google.com/citations?user=_PW0aeYAAAAJ&hl=en)
 
